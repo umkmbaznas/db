@@ -165,11 +165,10 @@ async function tampilkanDetail() {
     const whatsappNumber = "6285950096545";
 
     const message = [
-      "🧼 *PESANAN DHARMA SUKOWATI*",
+      "🧼 *Pesanan Lani The Label*",
       "",
       `Nama: ${customerName}`,
       `Produk: ${product.name}`,
-      `Ukuran: ${sizeName}`,
       `Harga: ${rupiah(price)}`,
       `Jumlah: ${quantity}`,
       `Total: ${rupiah(total)}`,
